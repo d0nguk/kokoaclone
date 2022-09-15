@@ -25,6 +25,7 @@
 
 .nav__link {
     position: relative;
+    color: var(--grey);
 }
 
 .nav__comment__notification {
