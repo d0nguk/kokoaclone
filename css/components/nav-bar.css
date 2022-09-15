@@ -4,6 +4,16 @@
     width: 100%;
     background-color: #f9f9fa;
     padding: 20px 50px;
+    /* 
+        박스의 크기는 width + padding
+        padding : 사용할 수 없는 공간, 여백
+        width : content가 들어갈 공간
+
+        박스에 padding을 주면 (예를 들어 왼쪽으로 50px)
+        박스는 기존 width의 크기를 유지하기 위해 오른쪽으로 50px을 추가해서 생성됨
+
+        box-sizing:border-box; 옵션은 위와 같은 상황을 막아주는 옵션, 박스 크기가 늘어나지 않도록 설정해줌
+    */
     box-sizing: border-box; 
     border-top: 1px solid rgba(0.25,0.25,0.25,0.2);
 }
@@ -11,4 +21,40 @@
 .nav__list {
     display: flex;
     justify-content: space-between;
+}
+
+.nav__link {
+    position: relative;
+}
+
+.nav__comment__notification {
+    display: block;
+    background-color: tomato;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+}
+
+.nav__ellipsis__notification {
+    display: block;
+    background-color: tomato;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    position: absolute;
+    bottom: 25px;
+    left: 25px;
 }
