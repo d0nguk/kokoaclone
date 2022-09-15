@@ -4,4 +4,9 @@
     background-color: #fafafa;
     padding: 15px 10px;
     font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.friends-screen {
+    padding: 0px var(--horizontal-space);
 }
