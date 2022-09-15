@@ -6,7 +6,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Chat - Kokoa Clone</title>
+        <title>More - Kokoa Clone</title>
     </head>
 
     <body>
@@ -27,16 +27,13 @@
         </div>
 
         <header class="screen-header">
-            <h1 class="screen-header__title">Chats</h1>
+            <h1 class="screen-header__title">More</h1>
             <div class="screen-header__icons">
                 <span>
                     <i class="fas fa-search fa-lg"></i>
                 </span>
                 <span>
-                    <i class="far fa-comment-dots fa-lg"></i>
-                </span>
-                <span>
-                    <i class="fas fa-music fa-lg"></i>
+                    <i class="fas fa-music"></i>
                 </span>
                 <span>
                     <i class="fas fa-cog fa-lg"></i>
@@ -44,27 +41,55 @@
             </div>
         </header>
 
-        <main class="main-screen">
+        <main class="main-screen more-screen">
             <div class="user-component">
                 <div class="user-component__column">
-                    <img 
-                        class="user-component__avatar user-component__avatar-sm"
-                        src="https://avatars.githubusercontent.com/u/40707277"
-                    />
+                    <img class="user-component__avatar user-component__avatar-xl" src="https://avatars.githubusercontent.com/u/40707277" />
                     <div class="user-component__text">
-                        <h4 class="user-component__title--not-bold">Nicolas</h4>
-                        <h6 class="user-component__subtitle">
-                            Please Check My Kokoa Account Info
-                        </h6>
+                        <h4 class="user-component__title">Nicolas</h4>
+                        <h6 class="user-component__subtitle">+ 787 666 999</h6>
                     </div>
                 </div>
                 <div class="user-component__column">
-                    <span class="user-component__time">21:22</span>
-                    <div class="badge">1</div>
+                    <i class="far fa-comment-alt fa-2x"></i>
                 </div>
             </div>
-            <div class="user-component__divider">
-                    
+
+            <div class="icon-raw">
+                <div class="icon-raw__icon">
+                    <i class="far fa-calendar"></i>
+                    <span>Calendar</span>
+                </div>
+                <div class="icon-raw__icon">
+                    <i class="far fa-smile-beam"></i>
+                    <span>Emoticons</span>
+                </div>
+                <div class="icon-raw__icon">
+                    <i class="fas fa-paint-roller"></i>
+                    <span>Themes</span>
+                </div>
+                <div class="icon-raw__icon">
+                    <i class="fas fa-file-invoice-dollar"></i>
+                    <span>Account</span>
+                </div>
+            </div>
+
+            <div class="more-suggestion">
+                <h4 class="more-suggestion__title">Suggestions</h4>
+                <div class="more-suggestion__icon">
+                    <div class="more-suggestion__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestion__icon-text">Kokoa Story</span>
+                    <div class="more-suggestion__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestion__icon-text">Kokoa Friends</span>
+                    <div class="more-suggestion__icon-image">
+                        <i class="fas fa-quote-right"></i>
+                    </div>
+                    <span class="more-suggestion__icon-text">Friends Gem</span>
+                </div>
             </div>
         </main>
 
@@ -80,7 +105,7 @@
                     <a class="nav__link" href="chats.html">
                         <!-- Message Icon -->
                         <span class="nav__comment__notification badge">1</span>
-                        <i class="fas fa-comment fa-2x"></i>
+                        <i class="far fa-comment fa-2x"></i>
                     </a>
                 </li>
                 <li class="nav__btn">

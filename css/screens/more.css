@@ -1,0 +1,16 @@
+.more-screen .icon-raw {
+    margin-top: 35px;
+}
+
+.more-suggestion {
+    margin-top: 40px;
+}
+
+.more-suggestion__title {
+    margin-bottom: 30px;
+}
+
+.more-suggestion__icon {
+    display: flex;
+    justify-content: flex-start;
+}
