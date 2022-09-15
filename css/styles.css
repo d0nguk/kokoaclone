@@ -18,6 +18,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     color: var(--grey);
+    height: 500vh;
 }
 
 .main-screen {
